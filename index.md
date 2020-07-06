@@ -1,4 +1,4 @@
-## 判断手机设备
+### 判断手机设备
 
             var ua = navigator.userAgent;
             trident: ua.indexOf('Trident') > -1, // IE内核
@@ -31,7 +31,7 @@
             Symbian: ua.indexOf('Symbian') > -1,
             ucSB: ua.indexOf('Firofox/1.') > -1
 
-## Android IOS  H5通讯
+### Android IOS  H5通讯
 
       var u = navigator.userAgent;
       if (u.indexOf("Android") > -1 || u.indexOf("Linux") > -1) {
@@ -41,30 +41,3 @@
         //苹果手机
         window.webkit.messageHandlers.backToApp.postMessage({});//{}内可传值
       }
-
-
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/0415ypt00/ypt/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
