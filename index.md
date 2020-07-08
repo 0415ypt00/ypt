@@ -8,7 +8,8 @@
         //苹果手机
         window.webkit.messageHandlers.backToApp.postMessage({});//{}内可传值
       }
-      
+### H5 在ios下滑动卡
+      -webkit-overflow-scrolling
 ### vs 常用插件配置
             Atom one Dark Theme
             Auto Close Tag
