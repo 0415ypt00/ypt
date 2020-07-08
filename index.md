@@ -1,3 +1,46 @@
+### Android IOS  H5通讯
+
+      var u = navigator.userAgent;
+      if (u.indexOf("Android") > -1 || u.indexOf("Linux") > -1) {
+        //安卓手机
+        window.android.backToApp();
+      } else if (u.indexOf("iPhone") > -1) {
+        //苹果手机
+        window.webkit.messageHandlers.backToApp.postMessage({});//{}内可传值
+      }
+      
+### vs 常用插件配置
+            Atom one Dark Theme
+            Auto Close Tag
+            Auto Rename Tag
+            Bracket Pair Colorizer 2
+            Chinese (Simplified) Language Pack for Visual Studio Code
+            CSS Peek
+            Debugger for Chrome
+            ES7 React/Redux/GraphQL/React-Native snippets
+            filesize
+            GitLens — Git supercharged
+            HTML CSS Support
+            HTML Snippets
+            Image preview
+            jQuery Code Snippets
+            minapp
+            Path Intellisense
+            Prettier - Code formatter
+            Quokka.js
+            Vetur
+            View In Browser
+            VSCode Great Icons
+            vscode-fileheader
+            vscode-icons
+            Vue 2 Snippets
+            wechat-snippet
+
+            
+
+
+      
+   
 ### 判断手机设备
 
             var ua = navigator.userAgent;
@@ -31,13 +74,4 @@
             Symbian: ua.indexOf('Symbian') > -1,
             ucSB: ua.indexOf('Firofox/1.') > -1
 
-### Android IOS  H5通讯
 
-      var u = navigator.userAgent;
-      if (u.indexOf("Android") > -1 || u.indexOf("Linux") > -1) {
-        //安卓手机
-        window.android.backToApp();
-      } else if (u.indexOf("iPhone") > -1) {
-        //苹果手机
-        window.webkit.messageHandlers.backToApp.postMessage({});//{}内可传值
-      }
