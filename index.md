@@ -1,5 +1,10 @@
-### Android IOS  H5通讯
+### iphone x 底部按钮会被手机自带的横条遮住
+      .footer（底部栏）{
+        padding-bottom: constant(safe-area-inset-bottom);
+        padding-bottom: env(safe-area-inset-bottom);
+    }
 
+### Android IOS  H5通讯
       var u = navigator.userAgent;
       if (u.indexOf("Android") > -1 || u.indexOf("Linux") > -1) {
         //安卓手机
@@ -9,7 +14,7 @@
         window.webkit.messageHandlers.backToApp.postMessage({});//{}内可传值
       }
 ### H5 在ios下滑动卡
-      -webkit-overflow-scrolling
+      -webkit-overflow-scrolling:scroll
 ### vs 常用插件配置
             Atom one Dark Theme
             Auto Close Tag
@@ -36,14 +41,7 @@
             vscode-icons
             Vue 2 Snippets
             wechat-snippet
-
-            
-
-
-      
-   
 ### 判断手机设备
-
             var ua = navigator.userAgent;
             trident: ua.indexOf('Trident') > -1, // IE内核
             presto: ua.indexOf('Presto') > -1, // opera内核
