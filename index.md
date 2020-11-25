@@ -1,3 +1,17 @@
+### 小程序按钮去掉默认样式
+      
+   button {
+        height: 88rpx;
+        border: 0;
+        margin: 0;
+        padding: 0;
+        box-shadow: 0;
+      }
+
+      button::after {
+        border: none;
+      }
+
 ### iphone x 底部按钮会被手机自带的横条遮住
       .footer（底部栏）{
         padding-bottom: constant(safe-area-inset-bottom);
